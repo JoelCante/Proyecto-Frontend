@@ -1,0 +1,176 @@
+
+     .swiper {
+        height: 420px;
+        margin-bottom: 30px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .cintilla{
+        margin-top: 30px;
+    }
+
+      .cintilla h3{
+        font-weight: 600;
+        font-size: 18px;
+      }
+
+      .cintilla p{
+        font-weight: 200;
+        font-size: 16px;
+        font-style: italic;
+        margin: 10px;
+      }
+
+      .swiper-slide:hover .circulo {
+        filter: sepia(0.5);
+      }
+
+ 
+      .circulo{
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        clip-path: circle(50% at 50% 50%);
+        filter: sepia(0);
+        transition: all 0.5s;
+      }
+       
+      .img1{
+        background-image: url(imagenes/person1.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .img2{
+        background-image: url(imagenes/person2.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .img3{
+        background-image: url(imagenes/person3.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .img4{
+        background-image: url(imagenes/person4.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .img5{
+        background-image: url(imagenes/person5.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .img6{
+        background-image: url(imagenes/person6.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      
+.contenedor_acordeon{
+  display: none;
+}
+
+.acordeon_t {
+  background-color: #4f6a7f77;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.acordeon_t:hover {
+  background-color: #4f6a7f;
+}
+
+.acordeon {
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.acordeon_contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.circulo2 {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.img_com1 {
+  background-image: url(imagenes/person1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_com2 {
+  background-image: url(imagenes/person2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_com3 {
+  background-image: url(imagenes/person3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_com4 {
+  background-image: url(imagenes/person4.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_com5 {
+  background-image: url(imagenes/person5.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_com6 {
+  background-image: url(imagenes/person6.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+    
+

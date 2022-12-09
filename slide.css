@@ -1,0 +1,123 @@
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+  
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
+  
+  /*  fin */
+  
+  .callbacks_container {
+    position: relative;
+    margin:auto;
+    }
+    .callbacks_container img{
+      height:650px;
+      filter: brightness(0.6);
+      object-fit:cover;
+    }
+    .callbacks_container ul {
+      margin:0px;
+      }
+  
+  .caption {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    }
+
+   .caption h1{
+    font-size: 60px;
+    font-weight: 500;
+   } 
+
+   .caption h3{
+    font-size: 45px;
+    font-weight: 300;
+   } 
+
+   .caption p{
+    font-weight: 200;
+   } 
+    
+   .linea_azul{
+    background-color: #40acff;
+    width: 150px;
+    height:5px;
+    border-radius: 5px;
+    margin: auto;
+   }
+
+  .indice{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .indice img{
+    color: #a8e1c5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+   
+  .callbacks_nav {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    opacity: 0.7;
+    z-index: 5;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 60px;
+    width: 40px;
+    background: transparent url("imagenes/flechas.png") no-repeat left top;
+    margin-top: -45px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    }
+     
+    .callbacks_nav:hover {
+      background-color: #a8e1c5ed;
+      }
+
+
+
+  .callbacks_nav.next {
+    left: auto;
+    background-position: right top;
+    right: 0;
+    }
+  

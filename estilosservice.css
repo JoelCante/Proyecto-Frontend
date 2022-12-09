@@ -1,0 +1,134 @@
+.servicios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_service{
+    padding: 10px;
+    width: 50%;
+}
+
+.info_service h3{
+    margin: 10px;
+}
+
+.info_service p{
+    font-weight: 200;
+    margin: 20px;
+}
+
+.fondo_parallax {
+    width:600px;
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.imagen_parallax{
+    background-image: url(imagenes/parallax/servicio1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagen_parallax2{
+    background-image: url(imagenes/parallax/servicio2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagen_parallax3{
+    background-image: url(imagenes/parallax/servicio3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagen_parallax4{
+    background-image: url(imagenes/parallax/servicio4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+  .fondo_parallax:hover .contenedor_contenido {
+     display: block;
+  }
+  
+
+  .contenedor_contenido{
+    display: none;
+    transition: all 0.5s;
+    width: 550px;
+    height: 250px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #192a3f14;
+    position: absolute;
+  }
+
+  .contenido_imagen{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 550px;
+    height: 250px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 95%;
+    border-radius: 15px;
+    background: linear-gradient(311deg, #00000065 52%, #40acff65 100%);
+    backdrop-filter: blur(5px);
+  }
+  
+  .contenido_imagen h3{
+   margin: 10px 0;
+   color: #fff;
+  }
+  
+  .contenido_imagen p{
+    font-weight: 200;
+    margin: 20px;
+    color: #fff;
+  }
+
+.galeria{
+    display:grid;
+    grid-template-areas:"g1 g2 g3";
+    justify-content: center;
+    grid-gap: 20px;
+    margin-bottom:30px ;
+}
+
+.galeria figure{
+    border-radius: 15px;
+    max-width: 350px;
+    height:350px;
+    overflow:hidden;
+}
+
+.galeria figure img{
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    filter:saturate(50%);
+    transition: all 0.5s;
+}
+
+.galeria figure img:hover{
+    filter: saturate(100%);
+}
+

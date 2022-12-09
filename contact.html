@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="estilosabout.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="boton.css" />
+    <link rel="stylesheet" href="carrouselswipper.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <link rel="stylesheet" href="estiloscontact.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/2ee0245f3d.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script src="slidescript.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="flecha_arriba.js"></script>
+    <title>Contact Us | CC</title>
+</head>
+<body>
+    <div class="ancla" id="subir">
+        <div class="Subir">
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </div>
+      <header>
+        <div class="menu_responsive">
+          <div class="cont_menur">
+            <i id="btn_menu" class="fa-solid fa-bars"></i>
+            <h3>Home</h3>
+          </div>
+          <i id="buscar2" class="bus fa-solid fa-magnifying-glass"></i>
+        </div>
+  
+        <div class="caja_menures">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html"  class="back_azul">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+  
+        <div class="contenedor_arriba2">
+          <div class="ancho contenedor_menu2">
+            <div class="logo">
+              <figure>
+                <img src="imagenes/clean_logo.svg" alt="" />
+              </figure>
+              <h2>Cleaning Company</h2>
+            </div>
+  
+            <div class="caja_menu">
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="hvr-rectangle-out">Home</a></li>
+                  <li><a href="about.html" class="hvr-rectangle-out">About</a></li>
+                  <li>
+                    <a href="services.html" class="hvr-rectangle-out">Services</a>
+                  </li>
+                  <li><a href="contact.html" class=" menu_azul">Contact</a></li>
+                </ul>
+              </nav>
+              <i id="buscar" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="titulo_section">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+      </header>
+
+
+      <section class="section_formulario">
+        <div class="titulo2">
+            <h2>You Need to Contact Us</h2>
+            <br>
+            <div class="linea_azul"></div>
+          </div>
+
+         <div class="contenedor_formulario ancho">
+            <div class="vacio">
+                <img src="imagenes/back-form.jpg" alt="">
+            </div>
+            <form class="formulario">
+                <h3>Contact Form</h3>
+                <input class="animate__animated animate__zoomIn" type="text" placeholder="Your name*" required />
+                <input class="animate__animated animate__zoomIn" type="email" placeholder="Email*" required/>
+                <input class="animate__animated animate__zoomIn" type="phone" placeholder="Phone*" required />
+                <input class="animate__animated animate__zoomIn comentarios" type="text" placeholder="Your Message" required/>
+                <button type="submit" class="btn_azul hvr-ripple-out animate__animated animate__zoomIn">Send</button>
+              </form>
+         </div>
+       
+     </section>
+
+
+     <div class="titulo2">
+        <h2>Find our Location</h2>
+        <br>
+        <div class="linea_azul"></div>
+      </div>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035861.560281198!2d-74.32935631009089!3d42.00652996441944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e371d6b6bc5629%3A0xd99d101908d03959!2sCleaning%20Company!5e0!3m2!1ses!2smx!4v1670617731606!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+      <footer>
+        <div class=" borde_superior">
+      </div>
+      <div class="titulo fondo_footer">
+  
+        <div class="logo2">
+          <figure>
+            <img src="imagenes/clean_logo.svg" alt="" />
+          </figure>
+        </div>
+  
+        <div class="redes_sociales wow animate__animated  animate__fadeInUp">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Copyright © 2022 | Cleaning Company</p>
+  
+      </div>
+      <div class="borde_superior"></div>
+    </footer>
+
+
+
+      
+    <script>
+        let menu = document.querySelector("#btn_menu");
+  
+        menu.onclick = () => {
+          menu.classList.toggle("fa-times");
+        };
+  
+        $("#btn_menu").click(function () {
+          $(".caja_menures").slideToggle();
+        });
+      </script>
+  
+      <script src="modal.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+    
+</body>
+</html>
